@@ -47,3 +47,16 @@ lista.sort(reverse=True)
 
 print(lista)
 ```
+
+### Função `clear()`
+
+'Limpa' a lista, removendo todos os seus elementos
+
+```python
+lista = ['maria', 'jose', 'ricardo']
+
+# 'limpa' a lista, removendo todos os seus elementos
+lista.clear()
+
+print(lista)
+```
