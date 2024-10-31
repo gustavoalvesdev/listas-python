@@ -72,3 +72,16 @@ lista.reverse()
 
 print(lista)
 ```
+
+### Função `append()`
+
+Adiciona um item ao final da lista
+
+```python
+lista = ['maria', 'jose', 'ricardo']
+
+# adiciona um item ao final da lista
+lista.append('roberta')
+
+print(lista)
+```
