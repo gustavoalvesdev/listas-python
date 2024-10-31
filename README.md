@@ -6,3 +6,13 @@ Em Python, uma **lista** é uma estrutura de dados que armazena uma coleção or
 - São criadas usando colchetes (`[]`), com os itens separados por vírgulas.
 - Permitem adicionar, remover e modificar elementos.
 - Suportam operações de fatiamento (slicing) e métodos específicos para manipulação, como `append()`, `remove()`, `sort()`, entre outros.
+
+### Função `pop()`
+
+Remove o último elemento da lista 
+```python
+lista = ['maria', 'jose', 'ricardo']
+# remove 'ricardo'
+lista.pop()
+#resultad: ['maria', 'jose']
+```
