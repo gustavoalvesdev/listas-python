@@ -100,3 +100,16 @@ lista1.append(lista2)
 
 print(lista1)
 ```
+
+### Função `insert()`
+
+Adiciona um item à lista, no índice passado como primeiro parâmetro
+
+```python
+lista = ['maria', 'jose', 'ricardo']
+
+# adiciona 'roberta' ao índice 1 da lista
+lista.insert(1, 'roberta')
+
+print(lista)
+```
