@@ -27,7 +27,7 @@
 # for x in range(len(lista)):
 #    print(x, carrinho_de_compras[x])
 
-lista = ['Ana', 'Pedro', 'Maria', 'Clarice', 'Beatriz', 'Ana Clara']
+lista = ['Ana', 'Pedro', 'Maria', 'Clarice', 'Beatriz', 'ana clara']
 print(lista)
 # lista.sort()
 lista.sort(key = str.lower)

@@ -60,3 +60,15 @@ lista.clear()
 
 print(lista)
 ```
+
+### Função `reverse()`
+
+Inverte os elementos da lista, a partir da lista original. Assim como `sort()`, não cria uma cópia da lista.
+```python
+lista = ['maria', 'jose', 'ricardo']
+
+# inverte a ordem dos elementos
+lista.reverse()
+
+print(lista)
+```
