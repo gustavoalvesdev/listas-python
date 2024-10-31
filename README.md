@@ -39,9 +39,11 @@ Ordena uma lista de forma crescente ou decrescente. A alteração é feita na li
 ```python
 lista = ['maria', 'jose', 'ricardo']
 
-# exclui o elemento no índice 0
-del lista[0]
-print(lista)
+# ordena de forma crescente
+#lista.sort()
 
-# exclui a lista
-del list
+# Ordena de forma decrescente
+lista.sort(reverse=True)
+
+print(lista)
+```
