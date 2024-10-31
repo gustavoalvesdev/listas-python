@@ -31,3 +31,17 @@ print(lista)
 # exclui a lista
 del lista
 ```
+
+### Função `sort()`
+
+Ordena uma lista de forma crescente ou decrescente. A alteração é feita na lista original, não numa cópia dela. 
+
+```python
+lista = ['maria', 'jose', 'ricardo']
+
+# exclui o elemento no índice 0
+del lista[0]
+print(lista)
+
+# exclui a lista
+del list
