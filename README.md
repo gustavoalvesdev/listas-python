@@ -85,3 +85,18 @@ lista.append('roberta')
 
 print(lista)
 ```
+
+### Função `extend()`
+
+Adiciona todos os elementos de uma lista ao final de outra lista
+
+```python
+lista1 = ['maria', 'jose', 'ricardo']
+
+lista2 = ['regina', 'fernanda', 'silvio']
+
+# adiciona a lista2 ao final da lista1
+lista1.append(lista2)
+
+print(lista1)
+```
