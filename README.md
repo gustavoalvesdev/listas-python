@@ -16,3 +16,18 @@ lista = ['maria', 'jose', 'ricardo']
 lista.pop()
 #resultad: ['maria', 'jose']
 ```
+
+### Comando `del`
+
+Utilizado para exclusão de objetos, como por exemplo *listas* ou *elementos* de uma lista
+
+```python
+lista = ['maria', 'jose', 'ricardo']
+
+# exclui o elemento no índice 0
+del lista[0]
+print(lista)
+
+# exclui a lista
+del lista
+```
